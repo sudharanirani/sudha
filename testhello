@@ -1,0 +1,7 @@
+from flask import Flask
+
+app = Flask()
+
+print("Hello World")
+
+app.run(Host="0.0.0.0", post=80)
