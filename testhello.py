@@ -7,5 +7,4 @@ app = Flask(__name__)
 def home():
     return "Hello World"
 if __name__ == "__main__":
-
-app.run(Host="0.0.0.0", post=80)
+    app.run(Host="0.0.0.0", post=80)
